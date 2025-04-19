@@ -44,9 +44,6 @@
 <h2>Custom Game Engine</h2>
 
 
-<ul>
-    <li><a href="https://jorbarumichedu.itch.io/classic-zelda-clone">Custom Feature Demonstration</a></li>
-</ul>
 
 <ul>
     <li><a>My game engine was developed as a 4 month class project. It supports the platforms Windows, Linux, and Mac. Users can script the game in lua, render to the screen with SDL, and use box2D for physics. </a></li>
@@ -57,6 +54,10 @@
         Specifically, all function calls had to cross from lua to c++ and store the request before we knew the size of the screen each frame. My implementation originally did not support removing draw calls from the request queue after the size of the screen was established either. Because of these performance sacrifices, I decided I wanted to make a custom data oriented design render framework.
         In my design, all the data is cached and only modified if the component has associated functions called. Additionally, I collect all draw calls after lua finishes running, so I am able to determine if an image is on screen before I save and sorts its data. Finally, my framework structure stores the vectors of data into objects called layers. These layers 
         can be adjusted to render either on screen space or world space, and each layer can have its render sorting be disabled for improved performance.</a></li>
+</ul>
+
+<ul>
+    <li><a href="https://youtu.be/40S_cy3aL_0">Custom Feature Demonstration</a></li>
 </ul>
 
 <ul>
