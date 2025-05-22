@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Jordan Barden Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -34,8 +34,8 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+							<h1>Jordan Barden Portfolio</h1>
+							<p>My portfolio covering a combination of my college, extra curriculars, and personal projects. Website template designed by <a href="http://html5up.net">HTML5 UP</a><br />
 							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -49,8 +49,18 @@
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
+									<h2>Class projects</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul>
+										<li><a>My game engine was developed as a 4 month class project. It supports the platforms Windows, Linux, and Mac. Users can script the game in lua, render to the screen with SDL, and use box2D for physics. </a></li>
+									</ul>
+									
+									<ul>
+										<li><a>As part of the class, we had to make a custom feature for our engine to differentiate it from the class's design. I chose a custom sprite renderer c++ component. The class originally gave the user the ability to directly draw to the screen through a function call. This provided alot of flexibility to the user, but sacrificed performance.
+											Specifically, all function calls had to cross from lua to c++ and store the request before we knew the size of the screen each frame. My implementation originally did not support removing draw calls from the request queue after the size of the screen was established either. Because of these performance sacrifices, I decided I wanted to make a custom data oriented design render framework.
+											In my design, all the data is cached and only modified if the component has associated functions called. Additionally, I collect all draw calls after lua finishes running, so I am able to determine if an image is on screen before I save and sorts its data. Finally, my framework structure stores the vectors of data into objects called layers. These layers 
+											can be adjusted to render either on screen space or world space, and each layer can have its render sorting be disabled for improved performance.</a></li>
+									</ul>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -157,17 +167,17 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
+											<span>555 East Wiliam St. 4A<br />
+											Ann Arbor, Mi 00000-0000<br />
 											USA</span>
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">jorbar@umich.edu</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
+											<span>(231) 350-1925</span>
 										</li>
 										<li>
 											<h3>Social</h3>
