@@ -20,8 +20,8 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
+							<li><a href="#one">Who I am</a></li>
+							<li><a href="#two">My projects</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
 					</nav>
@@ -35,8 +35,7 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Jordan Barden Portfolio</h1>
-							<p>My portfolio covering a combination of my college, extra curriculars, and personal projects. Website template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<p>My portfolio covering a combination of my college, extra curriculars, and personal projects.<a href="http://html5up.net/license">Creative Commons</a>.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -49,45 +48,10 @@
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Class projects</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul>
-										<li><a>My game engine was developed as a 4 month class project. It supports the platforms Windows, Linux, and Mac. Users can script the game in lua, render to the screen with SDL, and use box2D for physics. </a></li>
-									</ul>
-									
-									<ul>
-										<li><a>As part of the class, we had to make a custom feature for our engine to differentiate it from the class's design. I chose a custom sprite renderer c++ component. The class originally gave the user the ability to directly draw to the screen through a function call. This provided alot of flexibility to the user, but sacrificed performance.
-											Specifically, all function calls had to cross from lua to c++ and store the request before we knew the size of the screen each frame. My implementation originally did not support removing draw calls from the request queue after the size of the screen was established either. Because of these performance sacrifices, I decided I wanted to make a custom data oriented design render framework.
-											In my design, all the data is cached and only modified if the component has associated functions called. Additionally, I collect all draw calls after lua finishes running, so I am able to determine if an image is on screen before I save and sorts its data. Finally, my framework structure stores the vectors of data into objects called layers. These layers 
-											can be adjusted to render either on screen space or world space, and each layer can have its render sorting be disabled for improved performance.</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+									<h2>Who I am</h2>
+									<p>I graduated from the University of Michigan's School of Engineering in May 2025. My degree is in Computer Science, and I focused my classes in interactive media like videogames and websites. Alongside classes for coding theory and optimization, I took classes for videogame development, software development, videogame engine architecture, introduction to AI, and Web Systems. </p>
+									<p>Outside of my classes, I participated in UofM's videogame studio wolverinesoft and the UofM's animation club. In wolverinesoft, I had worked as an artist, technical artists, and Lead Artist; furthermore, I have help ship 4 games from the studio to Steam and Itch.io. See My Projects for more details.</p>
+									<p>Additionally, for nearly 9 years I have studied various 3D modeling programs and skills. In my freshmen year of highschool I started learning the CAD software Solidworks and actively worked with it through my senior year. In my junior year of highschool, I started learning 3D modeling in Blender. Sense then, I have learned skills related to modeling, sculpting, manual retopology, rigging, weightpainting, UV unwrapping, basic texturing, animation, and exporting to Unity.  </p>
 								</div>
 							</div>
 						</section>
@@ -101,38 +65,31 @@
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
+									<h3>2D Multiplatform Gameengine</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
+									<h3>Wolverinesoft Shipped Games</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
+									<h3>Videogame Development Class Projects</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
+									<h3>Personal Projects</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 								</section>
 							</div>
+
+							<!-- Temp Button 
 							<ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
 							</ul>
+							-->
 						</div>
 					</section>
 
@@ -140,7 +97,6 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -166,27 +122,14 @@
 								<section>
 									<ul class="contact">
 										<li>
-											<h3>Address</h3>
-											<span>555 East Wiliam St. 4A<br />
-											Ann Arbor, Mi 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
 											<h3>Email</h3>
 											<a href="#">jorbar@umich.edu</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(231) 350-1925</span>
-										</li>
-										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/jorbar-Dev" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/jordan-barden-62438a366/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -201,7 +144,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled. All rights reserved.</li><li>Website Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
